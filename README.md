@@ -11,10 +11,10 @@ The actual generated graphs live here. You can freely link to them, to put them 
 
 The filenames start with either `dot` or `neato`. Those names refer to different algorithms. Basically, `dot` will look more hierarchical, and `neato` will be more circular.
 
-- https://raw.githubusercontent.com/makeworld-the-better-one/graphics/dot.svg
-- https://raw.githubusercontent.com/makeworld-the-better-one/graphics/dot.pdf
-- https://raw.githubusercontent.com/makeworld-the-better-one/graphics/neato.svg
-- https://raw.githubusercontent.com/makeworld-the-better-one/graphics/neato.pdf
+- https://raw.githubusercontent.com/makeworld-the-better-one/jreg-centricide-7/graphics/dot.svg
+- https://raw.githubusercontent.com/makeworld-the-better-one/jreg-centricide-7/graphics/dot.pdf
+- https://raw.githubusercontent.com/makeworld-the-better-one/jreg-centricide-7/graphics/neato.svg
+- https://raw.githubusercontent.com/makeworld-the-better-one/jreg-centricide-7/graphics/neato.pdf
 
 
 ## Contributing
