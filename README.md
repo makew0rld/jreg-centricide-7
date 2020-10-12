@@ -1,6 +1,8 @@
 # Jreg Centricide 7 Community Map
 
-This GitHub repository contains code that generates graphs of the Jreg Centricide 7 relationships. This is notable because these graphs can be edited and improved by the community. *You* can propose changes or file bug reports if you realize that this graph is incorrect. **Best of all, it contains hyperlinks to each video.**
+This GitHub repository contains code that generates graphs of the Jreg Centricide 7 relationships. **Best of all, it contains hyperlinks to each video.**
+
+*It is currently incomplete! Please help add to it.*
 
 The code lives in [`main.gv`](./main.gv) file, it is written in the [GraphViz](https://graphviz.org/) format. You should get the hang of it by looking at the file contents.
 
