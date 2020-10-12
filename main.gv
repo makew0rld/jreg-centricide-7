@@ -211,5 +211,14 @@ digraph "" {
     recap -> agree
 
     // mini - Actually, it's going to be a mini-episode in-between 6 and 7 now
-    mini -> c7   
+    mini -> c7
+
+    // 7.8 - Clownclusion || Centricide 7.8
+    pill[label="PILL", href="https://www.youtube.com/watch?v=7Q03BggQUaA"]
+    will[label="WILL", href="https://www.youtube.com/watch?v=cO73v5cCCNo"]
+
+    c7_8 -> pill
+    c7_8 -> will
+
+    // TODO: Continue with pill and will
 }
