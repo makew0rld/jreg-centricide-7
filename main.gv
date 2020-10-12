@@ -1,0 +1,215 @@
+digraph "" {
+    overlap=false  // For neato graphs
+
+    // Things are ordered by depth-first search.
+    //  1. Cards
+    //  2. Sidebar
+    //  3. Description
+    // The card order is from left-to-right, then top-to-bottom.
+
+    // See this image for an idea of the order of this document:
+    // https://upload.wikimedia.org/wikipedia/commons/1/1f/Depth-first-tree.svg
+
+
+    c7[label="Greg Guevara || Centricide 7.0", href="https://www.youtube.com/watch?v=B-kV7tiYEjY"]
+    
+    // [Links in the] first video
+    c7_1[label="Jreg and Greg || Centricide 7.1", href="https://www.youtube.com/watch?v=fB3uCuK_0LY"]
+    c8[label="Accelerationism || Centricide 8.0 (Part 1/3)", href="https://www.youtube.com/watch?v=Syef51M7n5w"]
+    recap[label="Recap || Centricide 7.05", href="https://www.youtube.com/watch?v=rng8vwyHB1Y"]
+    mini[label="Actually, it's going to be a mini-episode in-between 6 and 7 now", href="https://www.youtube.com/watch?v=LUieOs4JYzI"]
+    mystery1[label="mysteryboxshit.png", href="https://www.youtube.com/watch?v=QYf5nkz7Brg"]
+    mystery2[href="https://www.youtube.com/watch?v=2wPojOdq"] // These don't exist... yet.
+    mystery3[href="https://www.youtube.com/watch?v=Rv7BxNn2"]
+    mystery4[href="https://www.youtube.com/watch?v=wdY60wL1"]
+    mystery5[href="https://www.youtube.com/watch?v=UVkFyXQh"]
+    mystery6[href="https://www.youtube.com/watch?v=B4V44qQX"]
+    mystery7[href="https://www.youtube.com/watch?v=sGcwoFh8"]
+    mystery8[href="https://www.youtube.com/watch?v=deRAicXw"]
+
+    c7 -> c7_1
+    c7 -> c8
+    c7 -> recap
+    c7 -> mini
+    c7 -> mystery1
+    c7 -> mystery2
+    c7 -> mystery3
+    c7 -> mystery4
+    c7 -> mystery5
+    c7 -> mystery6
+    c7 -> mystery7
+    c7 -> mystery8
+
+    // 7.1
+    c7_2[label="Mistakes || Centricide 7.2", href="https://www.youtube.com/watch?v=1-BAUUYgXPc"]
+    c7_15[label="Sockpuppet || Centricide 7.15", href="https://www.youtube.com/watch?v=iMg3Z_1sT-k"]
+    mental[label="Mental Illness || Centricide 7.654321 / 7.123456", href="https://www.youtube.com/watch?v=wiDXCZHIJF4"]
+
+    c7_1 -> c7_2
+    c7_1 -> c7_5
+    c7_1 -> mental
+
+    // 7.2
+    clown[label="🤡NOW ENTERING THE CLOWN ZONE🤡", href="https://www.youtube.com/watch?v=vOtEiff-PJ8"]
+    c7_3[label="Dad || Centricide 7.3", href="https://www.youtube.com/watch?v=XprGSUcV0rw"]
+    
+    c7_2 -> clown
+    c7_2 -> c7_3
+
+    // 7.3
+    c7_4[label="Will You Marry Me? || Centricide 7.4", href="https://www.youtube.com/watch?v=rp90Aj20X5g"]
+    c7_3a[label="Dada || Centricide 7.3a", href="https://www.youtube.com/watch?v=04_qG1j5nlA"]
+    c7_8[label="Clownclusion || Centricide 7.8", href="https://www.youtube.com/watch?v=YvReJH8qJL4"]
+    living[label="Something worth living for, something worth dying for", href="https://www.youtube.com/watch?v=7nNLlu43UdY"]
+
+    c7_3 -> c7_4
+    c7_3 -> c7_3a
+    c7_3 -> c7_8
+    c7_3 -> living
+
+    // 7.4
+    c7_4a[label="Yes || Centricide 7.4A", href="https://www.youtube.com/watch?v=ZijQlflNF_4"]
+    c7_4b[label="No || Centricide 7.4B", href="https://www.youtube.com/watch?v=OJmcoGasebE"]
+    c7_4c[label="I Don't Know || Centricide 7.4C", href="https://www.youtube.com/watch?v=lRdr34p4MX8"]
+
+    c7_4 -> c7_4a
+    c7_4 -> c7_4b
+    c7_4 -> c7_4c
+
+    // 7.4A
+    c7_5[label="Abstract Art || Centricide 7.5", href="https://www.youtube.com/watch?v=T98IM6Lwof8"]
+    xtra[label="C7.Cii.Xtra || FIELD || C7", href="https://www.youtube.com/watch?v=Pzo_R8gccwo"]
+
+    c7_4a -> c7_5
+    c7_4a -> xtra
+
+    // 7.5
+    c7_832[label="You're Lost || Centricide 7.832", href="https://www.youtube.com/watch?v=AnyzyxKAVTY"]
+    c7_5_2[label="Abstract Art || Centricide 7.5 [old video renamed]", href="https://www.youtube.com/watch?v=m_Gh9jKARzo"]
+    c7_65[label="Describe or Prescribe || Centricide 7.65", href="https://www.youtube.com/watch?v=4pHXIUNWc9A"]
+    rationality[label="The limits of rationality || Centricide (2.9π)-√2", href="https://www.youtube.com/watch?v=gSMDYkdsJ34"]
+    storm[label="Eye of the Storm", href="https://www.youtube.com/watch?v=skZUbHTYmJI"]
+
+    c7_5 -> c7_832
+    c7_5 -> c7_5_2
+    c7_5 -> c7_65
+    c7_5 -> rationality
+    c7_5 -> storm
+
+    // 7.832
+    c7_833[label="Antopia || Centricide 7.833", href="https://www.youtube.com/watch?v=SlIe91cb0rg"]
+
+    c7_832 -> c7_833
+
+    // 7.833
+    c7_834[label="the antopia premiere was epic || Centricide 7.834", href="https://www.youtube.com/watch?v=cjXDhWBiefc"]
+    
+    c7_833 -> c7_834
+    c7_833 -> c7_5_2
+
+    c7_834 -> "More KLOY stuff I'm not getting into"
+
+    // c7_5_2 - 7.5 [old video renamed]
+    c7_5_2 -> c7_5
+
+    // 7.65
+    c7_777[label="Noise || Centricide 7̦̘͜.7̢͎̪7͚͙͜7̡͎͜7̼͍̟7͕̪͜7̦̪̙7̢̦͉7̼͎̞7̞̼͜7͍̞̝7̟̪͉7͕̺͔7̢̠͚7̟̝͙7̦͚7̢͜7̪̙͜7̙̠7͔̺̫7̡", href="https://www.youtube.com/watch?v=WB5sy8ttRQU"]
+    war[label="Centricide 7 || Where Is The War? (Between Your Temples)", href="https://www.youtube.com/watch?v=crJ-G9-gHYY"]
+    propoganda[label="Propoganda || Centricide Whatever", href="https://www.youtube.com/watch?v=G_fCuTZLSZ4"]
+
+    c7_65 -> c7_777
+    c7_65 -> war
+    c7_65 -> c7_8
+    c7_65 -> propoganda
+
+    // 7.777
+    joke[label="A Joke", href="https://www.youtube.com/watch?v=jrmUNzQrIhk"]
+    agree[label="Anti-Centrism As An Expression Of Agreeableness || Centricide [Whatever You Want] :)", href="https://www.youtube.com/watch?v=S3WI-WtjxsI"]
+    
+    c7_777 -> joke
+    c7_777 -> agree
+    c7_777 -> propoganda
+    c7_777 -> c7_4
+
+    // A Joke
+    qa[label="Q+A With Jreg", href="https://www.youtube.com/watch?v=PBHEHtTGduw"]
+
+    joke -> c7_777
+    joke -> qa
+
+    // Q+A
+    context[label="just funny in context || Centricide 7.-1000", href="https://www.youtube.com/watch?v=y4Pe66gUu1g"]
+
+    qa -> context
+
+    // agree - Anti-Centrism As An Expression Of Agreeableness || Centricide [Whatever You Want] :)
+    agree -> propoganda
+
+    // propoganda
+    c7_fire[label="Art As Self-Immolation || Centricide 7.🔥", href="https://www.youtube.com/watch?v=C_wM6mhsOCw"]
+    kill[label="I Will KILL Politics—Sorry, Buddy! You're Dead! || Centricide BANG! BANG! BANG!", href="https://www.youtube.com/watch?v=tRzaUR7diCM"]
+
+    propoganda -> c7_fire
+    propoganda -> kill
+
+    // kill
+    kill -> propoganda
+
+    // war
+    die_war[label="I Want To Die In A War", href="https://www.youtube.com/watch?v=Si7dl6BU78E"]
+    want_die[label="I want(ed) to die", href="https://www.youtube.com/watch?v=n7v7HvNjm5E"]
+
+    war -> die_war
+    war -> want_die
+    war -> kill
+
+    // rationality
+    rationality -> c7_3a
+    rationality -> c7_5
+
+    // storm
+    reconstruction[label="Reconstruction", href="https://www.youtube.com/watch?v=S7vXz2qfwdY"]
+    conglamerate[label="A conglamerate of frameworks || \"Centricide\" 7", href="https://www.youtube.com/watch?v=MHIG5OnJW6U"]
+
+    storm -> c7_5
+    storm -> reconstruction
+    storm -> conglamerate
+
+    // conglamerate - A conglamerate of frameworks || "Centricide" 7
+    stop_okay[label="Stop Asking If I'm Okay || Centricide 7 [old video renamed]", href="https://www.youtube.com/watch?v=7pU5Q3sAUPA"]
+    stop_asking[label="Stop ASking [unlisted since March]", href="https://www.youtube.com/watch?v=o5ghNO9si3Q"]
+
+    conglamerate -> stop_okay
+    conglamerate -> stop_asking
+
+    // 7.4C
+    c7_4c -> c7_3
+
+    // living - Something worth living for, something worth dying for
+    living -> c7_3
+
+    // c7_15 - Sockpuppet || Centricide 7.15
+    c7_15 -> c7_2
+    c7_15 -> c7_3
+    c7_15 -> propoganda
+
+    // mental - Mental Illness || Centricide 7.654321 / 7.123456
+    if_explain[label="if only i could explain everything away with a mental illness", href="https://www.youtube.com/watch?v=LmtCRbUxm2w"]
+    
+    mental -> c7_65
+    mental -> clown
+    mental -> c7_1
+    mental -> if_explain
+    mental -> c7_5
+
+    // if_explain
+    if_explain -> mental
+    if_explain -> clown
+
+    // recap
+    recap -> c7
+    recap -> agree
+
+    // mini - Actually, it's going to be a mini-episode in-between 6 and 7 now
+    mini -> c7   
+}
