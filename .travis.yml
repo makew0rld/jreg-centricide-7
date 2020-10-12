@@ -1,0 +1,17 @@
+language: shell
+
+addons: 
+  apt_packages:
+    - graphviz
+
+script: ./generate.sh
+
+deploy:
+  provider: pages
+  target_branch: graphics
+  local_dir: build
+  skip_cleanup: true
+  github_token: $GITHUB_TOKEN
+  keep_history: true
+  on:
+    branch: master
