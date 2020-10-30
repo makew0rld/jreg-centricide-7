@@ -2,7 +2,7 @@
 
 This GitHub repository contains code that generates graphs of the Jreg Centricide 7 relationships. **Best of all, it contains hyperlinks to each video.**
 
-*It is currently incomplete! Please help add to it.*
+*It is currently somewhat incomplete! Feel free to help add to it.*
 
 The code lives in [`main.gv`](./main.gv) file, it is written in the [GraphViz](https://graphviz.org/) format. You should get the hang of it by looking at the file contents.
 
@@ -17,6 +17,14 @@ The filenames start with either `dot` or `neato`. Those names refer to different
 - https://raw.githubusercontent.com/makeworld-the-better-one/jreg-centricide-7/graphics/dot.pdf
 - https://raw.githubusercontent.com/makeworld-the-better-one/jreg-centricide-7/graphics/neato.svg
 - https://raw.githubusercontent.com/makeworld-the-better-one/jreg-centricide-7/graphics/neato.pdf
+
+If you're unsure what's best, go with the **first one**.
+
+All these links will auto-update when this repo updates.
+
+## Other
+
+If you'd like a list of all the video URLs, you can find that [here]( https://raw.githubusercontent.com/makeworld-the-better-one/jreg-centricide-7/graphics/urls.txt). That link will also auto-update. Note that Jreg has already changed the status of some videos, so I can't guarantee all links will work.
 
 
 ## Contributing

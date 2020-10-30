@@ -10,3 +10,5 @@ neato main.gv -Tsvg > build/neato.svg
 
 dot main.gv -Tpdf > build/dot.pdf
 neato main.gv -Tpdf > build/neato.pdf
+
+sed -n '\,\s//,!s/.*\(https:\/\/www\.youtube\.com\/watch.*\)"].*/\1/p' main.gv > build/urls.txt
